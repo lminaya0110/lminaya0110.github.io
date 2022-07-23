@@ -1,81 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Word Battle</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HPWordDuel</title>
 </head>
-
 <body>
 
-    <h1>Word Battle</h1>
-
-    <div class="game-container">
-
-        <div class="player1">
-            <h2>Player 1</h2>
-            <div class="p1stats"></div>
-        </div>
-
-        <div class="gameBoard">
-        </div>
-
-        <div class="player2">
-            <h2>Player 2</h2>
-            <div class="p2stats"></div>
-        </div>
-
+  <div id="game">
+    <div class="title">HPWordDuel</div>
+    <div id="msg"></div>
+    <div class="score">
+      <span id="user-score">0</span>
+      <span id="total-score">3</span>
     </div>
-
-
-    <div id="keyboard">
-        <div class="first-row">
-            <button class="keyboard-button">q</button>
-            <button class="keyboard-button">w</button>
-            <button class="keyboard-button">e</button>
-            <button class="keyboard-button">r</button>
-            <button class="keyboard-button">t</button>
-            <button class="keyboard-button">y</button>
-            <button class="keyboard-button">u</button>
-            <button class="keyboard-button">i</button>
-            <button class="keyboard-button">o</button>
-            <button class="keyboard-button">p</button>
-        </div>
-        <div class="second-row">
-            <button class="keyboard-button">a</button>
-            <button class="keyboard-button">s</button>
-            <button class="keyboard-button">d</button>
-            <button class="keyboard-button">f</button>
-            <button class="keyboard-button">g</button>
-            <button class="keyboard-button">h</button>
-            <button class="keyboard-button">j</button>
-            <button class="keyboard-button">k</button>
-            <button class="keyboard-button">l</button>
-        </div>
-        <div class="third-row">
-            <button class="keyboard-button">Del</button>
-            <button class="keyboard-button">z</button>
-            <button class="keyboard-button">x</button>
-            <button class="keyboard-button">c</button>
-            <button class="keyboard-button">v</button>
-            <button class="keyboard-button">b</button>
-            <button class="keyboard-button">n</button>
-            <button class="keyboard-button">m</button>
-            <button class="keyboard-button">Enter</button>
-        </div>
+    <div class="grid">
+      <input type="text" maxlength = "1" class="tile" id="t1">
+      <input type="text" maxlength = "1" class="tile" id="t2">
+      <input type="text" maxlength = "1" class="tile" id="t3">
+      <input type="text" maxlength = "1" class="tile" id="t4">
+      <input type="text" maxlength = "1" class="tile" id="t5">
     </div>
-        
-
-
-
-
-    <script src="main.js"></script>
+  </div>
+  
+  <script src="main.js" type="module"></script>
 </body>
-
 </html>

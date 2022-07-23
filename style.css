@@ -1,87 +1,68 @@
-* {
-    color: #ffffff;
-    background-color: #242423;
-    font-family: 'Cormorant SC', serif;
+html,
+body {
+    color: white;
+    background: var(--default);
 }
 
-h1 {
+:root {
+    --default: #170312;
+    --empty: #7A7265;
+    --wrong: #F7B32B;
+    --right: #81C14B;
+}
+
+#game {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.title{
+    display: grid;
+    font-size: 4rem;
+}
+
+.msg {
+    display: grid;
+    color: white;
     text-align: center;
     align-items: center;
-    border-bottom: solid 2px #C8BFC7;
 }
 
-h2 {
-    border-bottom: solid 2px #C8BFC7;
-}
-
-.game-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.gameBoard {
-    height: 90vh;
-    width: 30vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.score {
+    display: grid;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
 
-.letter-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.letter-tile {
-    border: solid 2px #C8BFC7;
-    border-radius: 4px;
-    margin: 2px;
-    font-size: 2.5rem;
-    font-weight: 700;
-    height: 4rem;
-    width: 4rem;
-    display: flex;
-    justify-content: center;
+#user-score {
+    color: white;
     align-items: center;
-    text-transform: uppercase;
+    text-align: center;
 }
 
-.filled-tile {
-    border: solid 2px black;
+#total-score{
+    color: white;
 }
 
-
-/* keyboard styling */
-.keyboard {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
 }
 
-.first-row,
-.second-row,
-.third-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-.keyboard-button {
-    height: 75px;
-    width: 75px;
-    border: solid 1px #242423;
+.tile {
+    width: 60px;
+    height: 60px;
+    border: solid 2px var(--empty);
     border-radius: 6px;
-    color: #242423;
-    background-color: #C8BFC7;
-    font-size: 1.5rem;
-    box-shadow: 1px 1px 1px 1px black;
+    margin: 4px;
+    background: var(--default);
+    color: white;
+    text-transform: uppercase;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.4rem;
 }
-
-/* end of keyboard */
-
-
