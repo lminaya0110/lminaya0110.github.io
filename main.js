@@ -89,7 +89,6 @@ const Questions = [{
 
 }
 
-
 ]
 
 var start = true;

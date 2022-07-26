@@ -7,6 +7,11 @@ body {
     background: var(--default);
 }
 
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
 :root {
     --default: #170312;
     --empty: #7A7265;
