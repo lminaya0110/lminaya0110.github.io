@@ -8,23 +8,27 @@
   <title>HPWordDuel</title>
 </head>
 <body>
+  <div class="panel">
+    <div class="result">
 
-  <div id="game">
-    <div class="title">Wizard Word Duel</div>
-    <div id="msg"></div>
-    <div class="score">
-      <span id="user-score">0</span>
-      <span id="total-score">3</span>
     </div>
-    <div class="grid">
-      <input type="text" maxlength = "1" class="tile" id="t1">
-      <input type="text" maxlength = "1" class="tile" id="t2">
-      <input type="text" maxlength = "1" class="tile" id="t3">
-      <input type="text" maxlength = "1" class="tile" id="t4">
-      <input type="text" maxlength = "1" class="tile" id="t5">
+    <div class="question-container" id="question">
+        Question goes here.
     </div>
-  </div>
+    <div class="option-container">
+        <button class="option" onclick="" id="op1" >option1</button>
   
+        <button class="option" id="op2" >option2</button>
+  
+        <button class="option" id="op3">option3</button>
+  
+        <button class="option" id="op4">option4</button>
+    </div>
+    <div class="navigation">
+        <button class="evaluate">Evaluate</button>
+        <button class="next">Next</button>
+    </div>
+</div>  
   <script src="main.js" type="module"></script>
 </body>
 </html>
