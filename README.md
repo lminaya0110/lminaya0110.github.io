@@ -1,5 +1,4 @@
 # Wizard Trivia Game
-Word Battle is a two player game where one opponent tries to guess a randomly chosen word before the other. 
 
 ## Description
 In this trivia game you are able to test your knowledge of the Harry Potter universe.
