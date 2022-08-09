@@ -160,10 +160,10 @@ function iterate(id) {
 
     evaluate[0].addEventListener("click", () => {
         if (selected == "true") {
-            result[0].innerHTML = "True";
+            result[0].innerHTML = "True. Click Next";
             result[0].style.color = "#81C14B";
         } else {
-            result[0].innerHTML = "False";
+            result[0].innerHTML = "False. Try Again";
             result[0].style.color = "#93032E";
         }
     })

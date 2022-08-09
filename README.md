@@ -1,8 +1,11 @@
-# Word Battle
+# Wizard Trivia Game
 Word Battle is a two player game where one opponent tries to guess a randomly chosen word before the other. 
 
 ## Description
-The goal is to guess the 5 letter word chosen by the computer, with only 5 tries. Player 1 will go first. Using the keyboard on the screen, Player 1 will guess and enter a 5 letter word. If any of the letters match the computer's selected word, the tile will light up yellow. If the letter matches the selected word AND is in the right placement, the tile will light up green. Player 2 will make the next guess based on the tile colors provided by Player 1. If a player guesses the selected word they win! If the word is not guessed at all then the computer wins. 
+In this trivia game you are able to test your knowledge of the Harry Potter universe.
+
+As the questions come up select your answer and hit the evaluate button. After you checked your answer click next, and see how far you can go.
+
 
 ## Built With
 
